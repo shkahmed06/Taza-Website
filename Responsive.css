@@ -1,0 +1,88 @@
+/* Media Query 1170px */
+
+@media(max-width : 1170px)
+{
+
+    /* Genral CSS */
+
+    .section-subtitle
+    {
+     max-width: 60%;   
+    }
+ 
+
+    /* 02 Banner Section */
+}
+
+
+
+
+@media(max-width : 991px)
+{
+
+    /* Genral CSS */
+
+.about .banner_section
+.product .banner_section
+.gallary .banner_section
+.contact .bannner_section
+{
+    background: url(../images/banner-slide/top-banner.jpg);
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+   
+}
+
+
+/* 01 Navbar CSS */
+    
+.header .navbar
+{
+    background-size: cover;
+    padding: 2rem;
+}
+.navbar .navbar-nav
+{
+    margin-top: 2rem;
+}
+.navbar .navbar-nav .nav-link
+{
+   padding: 0.2rem 0.5rem;
+   margin-top: 1rem;
+}
+.header .header_right span
+{
+   padding: 0.2rem 0.5rem;
+}
+
+
+}
+
+
+@media(max-width : 767px)
+{
+   /* Genral CSS */
+
+.section-subtitle
+{
+ max-width: 60%;   
+}
+
+}
+
+
+
+@media(max-width : 590px)
+{
+   /* Genral CSS */
+
+.section-subtitle
+{
+ max-width: 80%;   
+}
+body,html
+{
+    font-size: 8px;
+}
+
+}
